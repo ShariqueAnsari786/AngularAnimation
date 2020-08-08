@@ -27,6 +27,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { IconComponent } from './icon/icon.component';
 import { AnimateModule } from './animate/animate.module';
+import { TestComponent } from './test/test.component';
 // import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -60,9 +61,10 @@ import { AnimateModule } from './animate/animate.module';
   ],
   
   declarations: [ 
-    AppComponent, HomeComponent,
+    AppComponent,
     HomeComponent,
-    IconComponent
+    IconComponent,
+    TestComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   bootstrap: [ AppComponent ]

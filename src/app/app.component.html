@@ -12,15 +12,16 @@
 </div>
 
 <!-- Child view with scroller -->
-<div class="animate-view" wmAnimateView useElement cdkScrollable *ngIf="child.checked; else mainView">
+<div class="animate-view" wmAnimateView useElement cdkScrollable >
+  <!-- *ngIf="child.checked; else mainView" -->
 
   <wm-home *ngIf="home"></wm-home>
-
+  <wm-test ></wm-test>
 </div>
 
 <!-- Main view -->
-<ng-template #mainView>
+<!-- <ng-template #mainView>
 
   <wm-home *ngIf="home"></wm-home>
 
-</ng-template>
+</ng-template> -->
